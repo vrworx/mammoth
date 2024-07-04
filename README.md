@@ -1,7 +1,7 @@
 <h1><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mastodon/mastodon/v4.2.9/lib/assets/wordmark.dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mastodon/mastodon/v4.2.9/lib/assets/wordmark.light.png">
-  <img alt="Mastodon" src="https://raw.githubusercontent.com/mastodon/mastodon/v4.2.9/lib/assets/wordmark.light.png" height="34">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mastodon/mastodon/v4.2.10/lib/assets/wordmark.dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mastodon/mastodon/v4.2.10/lib/assets/wordmark.light.png">
+  <img alt="Mastodon" src="https://raw.githubusercontent.com/mastodon/mastodon/v4.2.10/lib/assets/wordmark.light.png" height="34">
 </picture></h1>
 
 Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, and video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub!)
