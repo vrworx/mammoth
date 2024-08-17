@@ -7,8 +7,8 @@
 Mastodon is a **free, open-source social network server** based on ActivityPub where users can follow friends and discover new ones. On Mastodon, users can publish anything they want: links, pictures, text, and video. All Mastodon servers are interoperable as a federated network (users on one server can seamlessly communicate with users from another one, including non-Mastodon software that implements ActivityPub!)
 
 ## Changelog
-* v4.2.9\MAX_CHARS - 500 -> 1500
-* v4.2.10\MAX_CHARS - 500 -> 1500
+* v4.2.10/MAX_CHARS - 500 -> 1500
+* v4.2.9/MAX_CHARS - 500 -> 1500
 
 #### app/javascript/mastodon/features/compose/components/compose_form.jsx
 ---
