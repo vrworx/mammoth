@@ -3,18 +3,19 @@
 MASTODON="/var/lib/mastodon"
 
 TOOTCMD="sudo -u mastodon RAILS_ENV=production"
+TOOT_REL="v4.2.x"
 TOOT_VER="v4.2.13"
 
 P_MAX_CHAR_1="app/javascript/mastodon/features/compose/components/compose_form.jsx"
-P_MAX_CHAR_1A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_VER}/MAX_CHARS/compose_form.jsx"
+P_MAX_CHAR_1A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_REL}/${TOOT_VER}/MAX_CHARS/compose_form.jsx"
 P_MAX_CHAR_1R="https://raw.githubusercontent.com/mastodon/mastodon/${TOOT_VER}/app/javascript/mastodon/features/compose/components/compose_form.jsx"
 
 P_MAX_CHAR_2="app/validators/status_length_validator.rb"
-P_MAX_CHAR_2A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_VER}/MAX_CHARS/status_length_validator.rb"
+P_MAX_CHAR_2A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_REL}/${TOOT_VER}/MAX_CHARS/status_length_validator.rb"
 P_MAX_CHAR_2R="https://raw.githubusercontent.com/mastodon/mastodon/${TOOT_VER}/app/validators/status_length_validator.rb"
 
 P_MAX_CHAR_3="app/serializers/rest/instance_serializer.rb"
-P_MAX_CHAR_3A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_VER}/MAX_CHARS/instance_serializer.rb"
+P_MAX_CHAR_3A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_REL}/${TOOT_VER}/MAX_CHARS/instance_serializer.rb"
 P_MAX_CHAR_3R="https://raw.githubusercontent.com/mastodon/mastodon/${TOOT_VER}/app/serializers/rest/instance_serializer.rb"
 
 P_MAX_CHAR_4="spec/validators/note_length_validator_spec.rb"
