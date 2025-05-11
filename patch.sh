@@ -3,7 +3,7 @@
 MASTODON="/var/lib/mastodon"
 
 TOOTCMD="sudo -u mastodon RAILS_ENV=production"
-TOOT_VER="v4.3.7"
+TOOT_VER="v4.3.8"
 
 P_MAX_CHAR_1="app/javascript/mastodon/features/compose/containers/compose_form_container.js"
 P_MAX_CHAR_1A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_VER}/MAX_CHARS/compose_form_container.js"
@@ -52,7 +52,7 @@ then
     find -path ./public/system -prune -o -exec chown -h mastodon:mastodon {} +
     ${TOOTCMD} NODE_OPTIONS=--openssl-legacy-provider bundle exec rails assets:precompile
     systemctl restart mastodon-sidekiq
-    systemctl reload mastodon-web
+    systemctl restart mastodon-web
     systemctl restart mastodon-streaming
 else
     echo "[*] PATCH: NOTHING TO REBUILD"
