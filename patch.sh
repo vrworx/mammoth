@@ -3,7 +3,7 @@
 MASTODON="/var/lib/mastodon"
 
 TOOTCMD="sudo -u mastodon RAILS_ENV=production"
-TOOT_VER="v4.4.3"
+TOOT_VER="v4.4.4"
 
 P_MAX_CHAR_1="app/javascript/mastodon/features/compose/containers/compose_form_container.js"
 P_MAX_CHAR_1A="https://raw.githubusercontent.com/vrworx/mammoth/main/${TOOT_VER}/MAX_CHARS/compose_form_container.js"
