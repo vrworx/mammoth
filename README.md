@@ -9,6 +9,7 @@ Mastodon is a **free, open-source social network server** based on ActivityPub w
 ## Changelog
 #### v4.5.6
  * MAX_CHARS: 500 -> 10000
+ * MAX_CHARS STATUS: 500 -> 1000
  * MAX_CHARS NOTE: 500 -> 1000
 
 #### app/javascript/mastodon/features/compose/containers/compose_form_container.js
@@ -22,7 +23,7 @@ Mastodon is a **free, open-source social network server** based on ActivityPub w
 ---
 [L4](https://github.com/mastodon/mastodon/blob/v4.5.6/app/validators/status_length_validator.rb#L4):
 ```ruby
-MAX_CHARS = 10000
+MAX_CHARS = 1000
 ```
 
 #### spec/validators/note_length_validator_spec.rb
