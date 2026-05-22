@@ -4,7 +4,7 @@
 MASTODON="/var/lib/mastodon"
 
 TOOTCMD="sudo -u mastodon RAILS_ENV=production"
-TOOT_VER="v4.5.9"
+TOOT_VER="v4.5.10"
 
 P_APPLY="1"
 P_RESTORE="0"
