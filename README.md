@@ -16,7 +16,7 @@ Mastodon is a **free, open-source social network server** based on ActivityPub w
 ---
 [L44](https://github.com/mastodon/mastodon/blob/v4.5.11/app/javascript/mastodon/features/compose/containers/compose_form_container.js#L44):
 ```javascript
- maxChars: state.getIn(['server', 'server', 'configuration', 'statuses', 'max_characters'], 10000),
+ maxChars: state.getIn(['server', 'server', 'configuration', 'statuses', 'max_characters'], 12500),
 ```
 
 #### app/validators/status_length_validator.rb
