@@ -23,7 +23,7 @@ Mastodon is a **free, open-source social network server** based on ActivityPub w
 ---
 [L4](https://github.com/mastodon/mastodon/blob/v4.5.11/app/validators/status_length_validator.rb#L4):
 ```ruby
-MAX_CHARS = 1000
+MAX_CHARS = 5000
 ```
 
 #### spec/validators/note_length_validator_spec.rb
