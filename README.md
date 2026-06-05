@@ -8,7 +8,7 @@ Mastodon is a **free, open-source social network server** based on ActivityPub w
 
 ## Changelog
 #### v4.5.11
- * MAX_CHARS: 500 -> 10000
+ * MAX_CHARS: 500 -> 12500
  * MAX_CHARS STATUS: 500 -> 10000
  * MAX_CHARS NOTE: 500 -> 2500
 
