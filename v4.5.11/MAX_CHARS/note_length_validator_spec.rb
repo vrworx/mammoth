@@ -3,7 +3,7 @@
 require 'rails_helper'
 
 RSpec.describe NoteLengthValidator do
-  subject { described_class.new(attributes: { note: true }, maximum: 1000) }
+  subject { described_class.new(attributes: { note: true }, maximum: 2500) }
 
   describe '#validate' do
     it 'adds an error when text is over configured character limit' do
